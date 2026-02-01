@@ -1,16 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Yash Pawar Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+[4:32 pm, 01/02/2026] Yash Pawar: <body>
 
 <div class="container">
-  <h1 class="typing">Hi, I am Yash Pawar 👋</h1>
+  <h1 class="typing">Hi, I am Yash Pawar</h1>
   <p class="fade">SY BSc Computer Science Student</p>
-  <button onclick="alert('Welcome to my website!')">Click Me</button>
+
+  <!-- 👇 YAHI PASTE KARO -->
+  <button onclick="showInfo()">Click Me</button>
+
+  <div id="info" class="info">
+    <h2>About Me</h2>
+    <p><b>Name:</b> Yash Pawar</p>
+    <p><b>Course:</b> SY BSc CS</p>
+    <p><b>College:</b> SMBC College</p>
+  </div>
 </div>
 
+  
+  <script>
+function showInfo() {
+  document.getElementById("info").style.display = "block";
+}
+</script>
 </body>
 </html>
