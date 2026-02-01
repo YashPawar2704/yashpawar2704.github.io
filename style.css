@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.container {
+  animation: slide 2s ease;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+/* Typing Animation */
+.typing {
+  border-right: 3px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(30) forwards;
+}
+
+@keyframes typing {
+  to { width: 300px; }
+}
+
+/* Fade Animation */
+.fade {
+  font-size: 20px;
+  opacity: 0;
+  animation: fadein 3s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes fadein {
+  to { opacity: 1; }
+}
+
+/* Slide Animation */
+@keyframes slide {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: red;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
