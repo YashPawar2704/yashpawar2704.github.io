@@ -60,7 +60,13 @@ button:hover {
 
 
 
-
+<script>
+function showInfo() {
+  document.getElementById("info").style.display = "block";
+}
+</script>
+</body>
+</html>
 
 
 
