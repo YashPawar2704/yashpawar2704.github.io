@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 48px;
 }
 
 /* Typing Animation */
@@ -24,7 +24,7 @@ h1 {
 }
 
 @keyframes typing {
-  to { width: 300px; }
+  to { width: max-content; }
 }
 
 /* Fade Animation */
